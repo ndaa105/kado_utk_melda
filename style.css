@@ -1,0 +1,61 @@
+body {
+  margin: 0; /* Menghapus margin default */
+  padding: 0; /* Menghapus padding default */
+  background: url('back3.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-size: cover; /* Mencakup seluruh latar belakang */
+  background-position: center; /* Posisikan gambar di tengah */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
+  height: 100vh; /* Tinggi latar belakang setara dengan tinggi viewport */
+  overflow: hidden; /* Hindari scroll jika gambar lebih besar dari viewport */
+  font-family: 'Comic Neue', 'cursive';
+  font-style: normal;
+}
+
+.audio {
+  min-height: 100vh;
+  background: url('back3.png') center/cover no-repeat;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url('back3.png') center/cover no-repeat;
+}
+
+.greating {
+  min-height: 100vh;
+  background: url('back3.png') center/cover no-repeat;
+}
+
+.gift {
+  min-height: 100vh;
+  background: url('back3.png') center/cover no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  flex: 1;
+  padding-top: 7rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: transparent;
+  border: none; /* Menghapus border card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(212, 234, 240);
+  border: none;
+}
